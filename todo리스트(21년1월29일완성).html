@@ -1,0 +1,37 @@
+<!--참고: https://www.youtube.com/watch?v=kRbAuj_CgnI-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilsan's To-do List</title>
+    <link rel="stylesheet" href="css.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>chaen's To-Do list</h1>
+        <div class="add-element">
+            <!--글쓰고 엔터키감지-->
+            <input type="text" id="add" placeholder="write" onkeydown="if(event.keyCode==13) javascript: enterkey();">
+            <button id="btn">Add</button>
+        </div>
+
+        <div class="element-list">
+            <ul id="list">
+                <li>10시 전에 일어나기</li>
+                <li>그만 먹기</li>
+                <li>1일 1코딩 하기</li>
+                <li>토익 하기</li>
+                <li>커피 마시기</li>
+                <li>넷플릭스 끊기</li>
+            </ul>
+        </div>
+    </div>
+    <script src="js.js"></script>
+
+</body>
+
+</html>
